@@ -22,6 +22,11 @@ namespace Revisao
             this.nome = nome;
         }
 
+        public string getNome()
+        {
+            return this.nome;
+        }
+
         public void setTelefone(string telefone)
         {
             this.telefone = telefone;
